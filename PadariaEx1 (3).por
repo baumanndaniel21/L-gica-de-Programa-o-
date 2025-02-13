@@ -10,6 +10,7 @@ programa {
     escreva("Informe peso total dos ingredientes :")
     leia(pesoTotalDosIngredientes)
     quantidadeDePaes=pesoTotalDosIngredientes/pesoDaMassaCrua
+    
     //Relatório
     escreva("Peso da massa crua por pão: ",m.arredondar(pesoDaMassaCrua,3))
     escreva("\nQuantidade de pães produzidos: ",m.arredondar(quantidadeDePaes,0))
